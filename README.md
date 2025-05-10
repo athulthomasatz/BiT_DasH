@@ -107,16 +107,8 @@ The dashboard analyzes data from:
 bitcoin-sentiment-dashboard/
 ├── app.py                  # Main Streamlit application
 ├── requirements.txt        # Project dependencies
-├── data/                   # Data files
-│   ├── btc_prices.csv      # Bitcoin price history
-│   └── btc_news.csv        # Bitcoin news articles
-├── models/                 # NLP models and processors
-│   ├── finbert_analysis.py # FinBERT implementation
-│   └── vader_analysis.py   # VADER implementation
-├── utils/                  # Helper functions
-│   ├── data_processing.py  # Data preparation utilities
-│   └── visualizations.py   # Chart generation functions
-└── notebooks/              # Jupyter notebooks for analysis
+├── btc_prices.csv      # Bitcoin price history
+├── btc_news.csv        # Bitcoin news articles
 ```
 
 ## 👥 Contributing
@@ -137,4 +129,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Made with ❤️ by [Your Name/Team]
+Made with ❤️ by [Athul Thomas]
